@@ -12,14 +12,18 @@ npm install ber-icons-react
 ## Usage
 
 ```tsx
-import { Home, Search, User } from "ber-icons-react";
+import {
+  HomeCustom,
+  HeartCustom,
+  SearchCustom,
+} from "ber-icons-react";
 
 export default function App() {
   return (
-    <div>
-      <Home size={24} color="#2563eb" />
-      <Search size={32} strokeWidth={1.5} />
-      <User size={24} className="my-icon" />
+    <div style={{ display: "flex", gap: 16 }}>
+      <HomeCustom size={32} color="blue" />
+      <HeartCustom size={32} color="red" variant="alternate" />
+      <SearchCustom size={32} color="green" />
     </div>
   );
 }
