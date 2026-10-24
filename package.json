@@ -1,6 +1,6 @@
 {
   "name": "ber-icons-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight and customizable SVG icon library for React",
   "license": "MIT",
   "type": "module",
